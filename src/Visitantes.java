@@ -40,7 +40,7 @@ public class Visitantes {
 
         // Leer edad de la persona
         System.out.print("Ingrese su edad: ");
-        edad = scanner.nextInt();
+        edad = scanner.nextByte();
 
         // Determinar si es mayor o menor de edad
         String mensajeEdad = (edad >= 18) ? "mayor de edad" : "menor de edad";
